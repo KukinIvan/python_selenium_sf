@@ -7,6 +7,6 @@ from time import sleep
 driver = webdriver.Chrome("C:\GIT\Skillfactory\python_selenium_sf\chromedriver")
 driver.get("https://community.payoneer.com/ru/entry/passwordrequest")
 driver.find_element(By.XPATH,"//*[@id="Form_Email"]").send_keys('facebook' + Keys.RETURN)
-sleep(2)
-driver.save_screenshot('sf.png')
+#sleep(2)
+#driver.save_screenshot('sf.png')
 #driver.quit()
